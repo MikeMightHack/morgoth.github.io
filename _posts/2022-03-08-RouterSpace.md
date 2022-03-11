@@ -1,18 +1,20 @@
 ---
-title: Router Space Walkthrough
+title: "Router Space HTB Walkthrough "
 author:
   name: Miguel Guerrero
-  link: https://mikemighthack.me/
-date: 2022-03-08 12:00:00 +0105
+  link: https://mikemighthack.me
+date: 2022-03-08 11:33:00 +0105
 categories: [HTB, Walkthrough]
-tags: [apk,command-injection,CVE-2021-3156]
+tags: [apk, command injection, CVE-2021-3156]
 math: true
 mermaid: true
 image:
-  src: /assets/images/HTB/RouterSpacrouterspace.png
+  src: /assets/images/HTB/RouterSpace/routerspace.png
   width: 800
   height: 500
 ---
+
+## Initial Foothold
 
 We start with a basic nmap. We see that we have port 22 (ssh) and 80 (http) open.
 ![image-center]({{ site.url }}{{ site.baseurl }}\assets\images\HTB\RouterSpace\20220309160318.png){: .align-center}
@@ -62,7 +64,9 @@ But if we try to bypass the filter with the following characters, for example: `
 
 If we try to send ourselves a reverse shell, it will not reach us. Surely there is some rule in the firewall.
   
-But we remember that we had an ssh service running on the victim machine.
+## Gain access
+
+Remember that we had an ssh service running on the victim machine.
 Check if the /home/paul/.ssh/authorized_keys file exists:
 
 ![image-center]({{ site.url }}{{ site.baseurl }}\assets\images\HTB\RouterSpace\20220309161751.png){: .align-center}
