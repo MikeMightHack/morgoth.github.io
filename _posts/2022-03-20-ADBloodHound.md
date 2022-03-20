@@ -153,6 +153,7 @@ After the import, we will see the following window that shows the import progres
 ![image-center]({{ site.url }}{{ site.baseurl }}\assets\images\tutorials\BloodHoundAD\20220319194002.png){: .align-center}
 
 Now we can see the Database updated:
+
 ![image-center]({{ site.url }}{{ site.baseurl }}\assets\images\tutorials\BloodHoundAD\20220319194113.png){: .align-center}
 
 In the menu showed above, we can see three tabs. The first one, shows information about the Database, how many users we have, groups, computers, etc. The second one, shows the information of a node. And finally we have the Analysis tab, where we can make requests to database to see relevant information about the AD.
