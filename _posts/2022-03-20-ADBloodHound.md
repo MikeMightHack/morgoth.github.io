@@ -4,7 +4,7 @@ author:
   name: Miguel Guerrero
   link: https://mikemighthack.me
 date: 2022-03-20 20:00:00 +0105
-categories: [Tutorials, AD, BloodHound]
+categories: [Tutorials, BloodHound, AD]
 tags: [BloodHound, AD, FakeAd]
 math: true
 mermaid: true
