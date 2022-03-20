@@ -1,5 +1,5 @@
 ---
-title: "Starting with Active Directory and Bloodhound"
+title: "Starting with Active Directory and BloodHound"
 author:
   name: Miguel Guerrero
   link: https://mikemighthack.me
@@ -125,7 +125,7 @@ Then , we can see an output like this one:
 
 
 ## BloodHound
-Now is time to extract all this information for bloodhound. We will use [BloodHound.py](https://github.com/fox-it/BloodHound.py), from our Kali. We can install it using pip:
+Now is time to extract all this information for BloodHound. We will use [BloodHound.py](https://github.com/fox-it/BloodHound.py), from our Kali. We can install it using pip:
 ```shell
 pip install bloodhound
 ```
