@@ -3,7 +3,7 @@ title: "Router Space HTB Walkthrough "
 author:
   name: Miguel Guerrero
   link: https://mikemighthack.me
-date: 2022-03-08 11:33:00 +0105
+date: 2023-06-09 11:33:00 +0105
 categories: [HTB, Walkthrough]
 tags: [apk, command injection, CVE-2021-3156]
 math: true
